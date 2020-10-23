@@ -22,7 +22,8 @@ def versatileDeci(n, TargetNum, num):
             try:
                 decP = str(TargetNum).split('.')[1]
                 decP = '0.' + decP
-                return ans + '.' + versatileDeci(-1, float(decP), num)
+                print(decP)
+                return ans + versatileDeci(-1, float(decP), num)
             except:
                 return ans
         else:
@@ -35,8 +36,8 @@ def versatileDeci(n, TargetNum, num):
     elif 1 > TargetNum > 0:
         if num**(n+1) > TargetNum >= num**n:
             if TargetNum%(num**n) == 0:
-                return hexaL[int(TargetNum//(num**n))]
-            return hexaL[int(TargetNum//(num**n))] + versatileDeci(n-1, TargetNum%(num**n), num)
+                return '.' + hexaL[int(TargetNum//(num**n))]
+            return '.' + hexaL[int(TargetNum//(num**n))] + versatileDeci(n-1, TargetNum%(num**n), num)
         else:
             return '0' + versatileDeci(n-1, TargetNum, num)
 print(versatileDeci(0, float(input()), int(input())))
