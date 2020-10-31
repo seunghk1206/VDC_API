@@ -1,5 +1,5 @@
-# nDecimalConverter_floatType
-> nDecimalConverter_floatType is my simple python project! The goal of this project is to create a nomial converter that can convert even decimals to n nomial form.
+# nNomialConverter_floatType
+> nNomialConverter_floatType is my simple python project! The goal of this project is to create a nomial converter that can convert even decimals to n nomial form.
 
 
 My product is close to a calculator. Even though the input is in a form of formula(e.x. 10*8+1/8), it will calculate it and convert it to n- nomial. Be creful though... The n of the n nomial should be a positive integer bigger than 1. This game was made to test my basic python abilities, and application skills. If possible, please give me a feedback about this converter so that I can improve furtherly in the future. This is a Pv(Prototype version), and it is prone to lots of errors! Please understand!
