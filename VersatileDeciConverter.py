@@ -21,8 +21,7 @@ def versatileDeci(n, TargetNum, num):
                 intP = str((int(intP)%(num**abs(each-n))))
             try:
                 decP = str(TargetNum).split('.')[1]
-                decP = '0.' + decP
-                print(decP)
+                decP = '.' + decP
                 return ans + versatileDeci(-1, float(decP), num)
             except:
                 return ans
@@ -31,7 +30,7 @@ def versatileDeci(n, TargetNum, num):
     elif TargetNum < 0:
         return '-' + versatileDeci(0, -TargetNum, num)
     elif TargetNum == 0 or TargetNum == '0':
-        return '0'
+        return '.0'
 
     elif 1 > TargetNum > 0:
         if num**(n+1) > TargetNum >= num**n:
