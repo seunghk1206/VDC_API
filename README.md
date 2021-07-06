@@ -18,7 +18,8 @@ VersatileDeciConverter.py
 
 ## further explanation
 
-My product is a converter, so the purpose is to be used as mathematical calculation with my product. The product is as convinient that it even converts float into n nomial. This may yet be prone to errors. Today is 08th of October of 2020 12:00 AM, and if someone steals this product, please email me!(skkim1733@gmail.com)
+My product is a converter, so the purpose is to be used as mathematical calculation with my product. The product is as convinient that it even converts float into n nomial. This may yet be prone to errors. Today is 06th of July of 2021 12:00 AM!
+(skkim1733@gmail.com)
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
