@@ -1,5 +1,5 @@
 import string
-def Arr2Unf(arr2):
+def Arr2DUnf(arr2):
     retL = [var for each in arr2 for var in each]
     return retL
 def versatileDeci(n, TargetNum, num):
@@ -8,7 +8,7 @@ def versatileDeci(n, TargetNum, num):
     except:
         pass
     a = [str(each) for each in range(10)]
-    for each in Arr2Unf([string.ascii_lowercase, string.ascii_uppercase]):
+    for each in Arr2DUnf([string.ascii_lowercase, string.ascii_uppercase]):
         for eachLetter in each:
             a.append(eachLetter)
     a.append('#')
